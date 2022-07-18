@@ -74,9 +74,6 @@ npm install -f @material-ui/core
 ```
 npm install -f @material-ui/icons
 ```
-<div> 
- <a href="https://replit.com/@SashenHasindu/Spotify-Clone?v=1"><img src="https://img.shields.io/badge/-Replit-%23333?style=for-the-badge&logo=replit&logoColor=white" target="_blank"></a>
-</div>
 
 ![Screenshot 2022-07-18 074831](https://user-images.githubusercontent.com/99184393/179437454-09bac260-145b-431a-9afe-5d9ec0677d5a.png)
 ![image](https://user-images.githubusercontent.com/99184393/179437631-c6455c48-39ec-415b-9038-45f3681783aa.png)
