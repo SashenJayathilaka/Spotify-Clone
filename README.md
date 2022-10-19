@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://isamoreira.com/wp-content/uploads/2020/12/Spotify-logo-2048x616.png" alt="logo" width="500" height="auto" />
+  <img src="https://isamoreira.com/wp-content/uploads/2020/12/Spotify-logo-2048x616.png" alt="logo" width="400" height="auto" />
   
   <h1>Spotify Clone with React.JS</h1>
   
@@ -55,8 +55,6 @@
 <div align="center">
 <a href="#" target="_blank"><img  src='https://user-images.githubusercontent.com/99184393/196680210-b20523fe-3c4e-4568-8c25-3c3dcb5e6bd1.png' alt='image'/></a>
 </div>
-
-## <a href="https://projects-seven-peach.vercel.app" target="_blank">LIVE DEMO 💥</a>
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
