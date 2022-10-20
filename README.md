@@ -10,7 +10,7 @@
   
   
 <!-- Badges -->
-
+<a href="https://spotify-clone-ten-psi.vercel.app" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
 ![](https://img.shields.io/github/forks/SashenJayathilaka/Spotify-Clone.svg)
 ![](https://img.shields.io/github/stars/SashenJayathilaka/Spotify-Clone.svg)
@@ -19,7 +19,8 @@
 
    
 <h4>
-  <span></span>
+      <a href="https://spotify-clone-ten-psi.vercel.app">View Demo</a>
+  <span> · </span>
     <a href="https://github.com/SashenJayathilaka/Spotify-Clone/blob/master/README.md">Documentation</a>
   <span> · </span>
     <a href="https://github.com/SashenJayathilaka/Spotify-Clone/issues">Report Bug</a>
@@ -53,8 +54,11 @@
 
 
 <div align="center">
-<a href="#" target="_blank"><img  src='https://user-images.githubusercontent.com/99184393/196680210-b20523fe-3c4e-4568-8c25-3c3dcb5e6bd1.png' alt='image'/></a>
+<a href="https://spotify-clone-ten-psi.vercel.app" target="_blank"><img  src='https://user-images.githubusercontent.com/99184393/196680210-b20523fe-3c4e-4568-8c25-3c3dcb5e6bd1.png' alt='image'/></a>
 </div>
+
+
+## <a href="https://spotify-clone-ten-psi.vercel.app" target="_blank">LIVE DEMO 💥</a>
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
@@ -65,7 +69,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://#/">Typescript</a></li>
+    <li><a href="https://#/">Javascript</a></li>
     <li><a href="https://nextjs.org/">Next.js</a></li>
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
