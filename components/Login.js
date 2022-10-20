@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import { getProviders, signIn } from "next-auth/react";
+import { signIn } from "next-auth/react";
 
-const login = ({ providers }) => {
+const Login = ({ providers }) => {
   return (
     <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
       <Head>
@@ -32,14 +32,4 @@ const login = ({ providers }) => {
   );
 };
 
-export default login;
-
-export async function getServerSideProps() {
-  const providers = await getProviders();
-
-  return {
-    props: {
-      providers,
-    },
-  };
-}
+export default Login;

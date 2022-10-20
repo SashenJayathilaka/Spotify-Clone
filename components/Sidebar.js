@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
-import useSpotify from "../hooks/useSpotify";
+import React, { useEffect, useState } from "react";
 import { useRecoilState } from "recoil";
+import useSpotify from "../hooks/useSpotify";
 
 import { playlistIdState } from "../atoms/playlistAtom";
 
 import { HomeIcon } from "../icons/homeIcon";
-import { SearchIcon } from "../icons/searchIcon";
 import { LibraryIcon } from "../icons/libraryIcon";
-import { HeartIcon } from "../icons/heartIcon";
-import { RssIcon } from "../icons/RssIcon";
 import { PlusCircle } from "../icons/PlusCircle";
+import { SearchIcon } from "../icons/searchIcon";
 
 const Sidebar = () => {
   const spotifyApi = useSpotify();

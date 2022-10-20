@@ -1,12 +1,15 @@
 import Head from "next/head";
 import React from "react";
-import { getSession } from "next-auth/react";
+import { getSession, getProviders, useSession } from "next-auth/react";
 
 import Sidebar from "../components/Sidebar";
 import Center from "../components/Center";
 import Player from "../components/Player";
+import Login from "../components/Login";
 
-export default function Home() {
+export default function Home({ providers }) {
+  const { data: session, status } = useSession();
+
   return (
     <div className="bg-black h-screen overflow-hidden">
       <Head>
@@ -17,23 +20,31 @@ export default function Home() {
           href="https://th.bing.com/th/id/R.fe4bfd3bd082e4fd4d6aca3f255925b1?rik=Hwa9QxFb3%2bIjtw&pid=ImgRaw&r=0"
         />
       </Head>
-      <main className="flex">
-        <Sidebar />
-        <Center />
-      </main>
-      <div className="sticky bottom-0">
-        <Player />
-      </div>
+      {session ? (
+        <>
+          <main className="flex">
+            <Sidebar />
+            <Center />
+          </main>
+          <div className="sticky bottom-0">
+            <Player />
+          </div>
+        </>
+      ) : (
+        <Login providers={providers} />
+      )}
     </div>
   );
 }
 
 export async function getServerSideProps(context) {
   const session = await getSession(context);
+  const providers = await getProviders();
 
   return {
     props: {
       session,
+      providers,
     },
   };
 }
