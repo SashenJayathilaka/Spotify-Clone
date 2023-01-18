@@ -1,0 +1,268 @@
+.wrapper {
+	margin: 0;
+	.header {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 190px;
+		padding-right: 175px;
+		background-color: black;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.spotify-logo {
+			display: flex;
+			align-items: center;
+			img {
+				cursor: pointer;
+			}
+		}
+		.links {
+			margin-left: 100px;
+			display: flex;
+			gap: 30px;
+			color: white;
+			.link {
+				color: white;
+				font-weight: 700;
+			}
+			.link:hover {
+				color: #1ed760;
+			}
+		}
+	}
+	.first-block {
+		background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px /
+				100% 1068px no-repeat,
+			linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+		height: 605px;
+		display: flex;
+		align-items: center;
+		svg {
+			margin-top: 170px;
+			margin-left: 250px;
+			position: relative;
+		}
+		img {
+			width: 267px;
+			height: 445px;
+			position: absolute;
+			left: 260px;
+			top: 240px;
+		}
+		.h1button {
+			display: flex;
+			flex-direction: column;
+			margin-left: 110px;
+			h1 {
+				display: flex;
+				align-items: center;
+				max-width: 653px;
+				width: 100%;
+				height: 147px;
+				color: white;
+				font-size: 58px;
+				font-weight: 800;
+				padding-bottom: 32px;
+			}
+			button {
+				border-radius: 500px;
+				border-color: white;
+				background-color: white;
+				width: 361px;
+				padding: 14px 32px;
+				font-weight: 700;
+
+				cursor: pointer;
+				transition: 1s;
+			}
+			button:hover {
+				transform: translate3d();
+			}
+		}
+	}
+	.secondBlock {
+		margin-top: 50px;
+		margin-bottom: 90px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		h1 {
+			font-size: 40px;
+			margin-bottom: 90px;
+		}
+		.secondBlockicons {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			.icons {
+				width: 282px;
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+
+				img {
+					width: 142px;
+					height: 142px;
+				}
+				.paragraph {
+					font-weight: bold;
+					margin-bottom: 10px;
+					font-size: 21px;
+					padding: 0px;
+					line-height: 1.3em;
+				}
+				.string {
+					width: 242px;
+					display: flex;
+					text-align: center;
+				}
+			}
+		}
+	}
+	.thirdBlock {
+		background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+		height: 495px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		h2 {
+			margin: 0;
+			color: white;
+			font-size: 48px;
+		}
+	}
+	.fourthBlock {
+		display: flex;
+		flex-direction: column;
+		margin: 0 175px;
+		padding: 75px 15px;
+		.questions {
+			.ques {
+				display: flex;
+				flex-direction: column;
+				.mainquestion {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: 20px;
+					p {
+						font-size: 18px;
+						font-weight: 900;
+						padding: 26px 28px;
+					}
+				}
+				.quest {
+					display: flex;
+					flex-direction: column;
+				}
+			}
+		}
+	}
+	.fifthBlock {
+		background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px /
+				100% 1114px no-repeat,
+			linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166))
+				rgb(108, 14, 224);
+		height: 450px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		h1 {
+			color: white;
+			font-size: 80px;
+		}
+		button {
+			border-radius: 500px;
+			border-color: white;
+			background-color: white;
+			width: 361px;
+			padding: 14px 32px;
+			font-weight: 700;
+
+			cursor: pointer;
+			transition: 1s;
+		}
+		button:hover {
+			transform: translate3d();
+		}
+	}
+	.footer {
+		padding-top: 100px;
+		padding-left: 190px;
+		background-color: black;
+		display: flex;
+		gap: 40px;
+		.company {
+			display: flex;
+			flex-direction: column;
+			width: 165px;
+			padding: 0 15px;
+			p {
+				color: #919496;
+				font-size: 12px;
+				font-weight: 900;
+				line-height: 1.4;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				margin: 20px 0;
+			}
+			.p {
+				color: white;
+				font-size: 16px;
+				padding: 3px 0 15px;
+			}
+			.p:hover {
+				color: #1ed760;
+			}
+		}
+		.community {
+			display: flex;
+			flex-direction: column;
+			width: 165px;
+			padding: 0 15px;
+			p {
+				color: #919496;
+				font-size: 12px;
+				font-weight: 900;
+				line-height: 1.4;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				margin: 20px 0;
+			}
+			.href {
+				color: white;
+				font-size: 16px;
+				padding: 3px 0 15px;
+			}
+			.href:hover {
+				color: #1ed760;
+			}
+		}
+		.KPD {
+			display: flex;
+			flex-direction: column;
+			width: 165px;
+			p {
+				color: #919496;
+				font-size: 12px;
+				font-weight: 900;
+				line-height: 1.4;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				margin: 20px 0;
+			}
+			.links {
+				color: white;
+				font-size: 16px;
+				padding: 3px 0 15px;
+			}
+			.links:hover {
+				color: #1ed760;
+			}
+		}
+	}
+}

@@ -1,11 +1,11 @@
-import { atom } from "recoil";
+import { atom } from 'recoil'
 
 export const currentTrackIdState = atom({
-  key: "currentTrackIdState",
-  default: null,
-});
+	key: 'currentTrackIdState',
+	default: null,
+})
 
 export const isPlaingState = atom({
-  key: "isPlaingState",
-  default: false,
-});
+	key: 'isPlaingState',
+	default: false,
+})
